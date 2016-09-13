@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/regulament.html', function () { 
+Route::get('/regulament.html', function () {
     return view('regulament');
+});
+Route::get('/turneu', function () {
+    return redirect('http://www.google.com');
 });
