@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://piroman.dev.isteam.ro'),
+    'url' => env('APP_URL', 'http://piroman.isteam.ro'),
 
     /*
     |--------------------------------------------------------------------------
