@@ -17,6 +17,11 @@ Route::get('/', function () {
 Route::get('/regulament.html', function () {
     return view('regulament');
 });
-Route::get('/turneu', function () {
-    return redirect('http://www.google.com');
+Route::get('/clasament.html', function () {
+    $gDoc = 'https://docs.google.com/spreadsheets/d/1RdHBKhmb5wqn9nNvoLdZdrv8j5mN-rMAOdzcK3KZxUo/pubhtml?gid=0&single=true';
+    return redirect($gDoc);
+});
+Route::get('/turneu.html', function () {
+    $gDoc = 'https://docs.google.com/spreadsheets/d/15RfvekijMpMI73ESfYtZz8ZwL9IcNyD7Ikq2_IvKaVI/pubhtml?gid=0&single=true';
+    return redirect($gDoc);
 });
